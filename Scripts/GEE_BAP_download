@@ -1,5 +1,5 @@
 //geometry polygon for site area 
-
+// https://code.earthengine.google.com/60044c59a1020b91ba06da1c2a153b56 link to original script
 var dataset = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
     .filterDate('2020-08-01', '2021-01-01');
 
